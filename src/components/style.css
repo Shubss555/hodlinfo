@@ -1,0 +1,154 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Oswald', sans-serif;}
+
+/* ---------------------header css start----------- */
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo a{
+    text-decoration: none!important;
+}
+.logo img{
+    width: 80%;
+    height: 60px;
+}
+.logo_a{
+ color: gray;
+}
+.logo_span{
+    color:#3DC6C1;
+}
+button#dropdownMenuButton1 {
+    background-color: #f8f9fa;
+    color: black;
+    border-color:#ddd ;
+}
+.btn_tele{
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: #3dc6c1;
+    color: #fff;
+    outline: none!important;
+    border: none;
+    /* margin: 0 auto;
+    display: table; */
+}
+.inr{
+    align-items: center;
+    justify-content: center;
+}
+.telegram{
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 767px) {
+   .inr{
+       padding: 10px 0;
+   }
+}
+/* ---------------------header css end----------------------- */
+/* ---------------------price css start------------------------ */
+
+.price_heading{
+    color: #D0D0D0;
+    font-size: 28px;
+}
+.price_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.price_list h2{
+    color:#5DC7C2;
+    font-size: 40px;
+}
+.price_list p{
+    color: #D0D0D0;
+    font-size: 20px;
+    font-weight: 300;
+}
+.price_rupee h2{
+    font-size: 80px;
+}
+.price_heading_avg{
+    font-size: 16px;
+   color:  #D0D0D0;
+}
+@media only screen and (max-width: 767px){
+    .price_rupee h2{
+        font-size: 60px;
+    }
+}
+/* ---------------------price css end------------------------ */
+.footer{
+    display: inline-flex;
+    justify-content: center;
+}
+footer{
+    border-top: 2px solid #ddd;
+    padding: 13px;
+}
+.footer p{
+    margin: 0 5px;
+   
+}
+.footer_support{
+    margin-left: auto;
+    float: right;
+}
+/*------------------------ table css start------------------------------ */
+.table {
+    /* margin: 0 auto; */
+    display: grid;
+    padding: 20px;
+}
+.table tr{
+    border-bottom: none;
+    background-color: #f8f9fa ; 
+    font-size: 20px;
+    border-radius: 10px;
+}
+.table td{
+    margin: 5px 0;
+    padding: 10px;
+}
+.table th{
+    padding: 5px;
+    border-bottom: none;
+    font-size: 20px;
+    font-weight: 300;
+    color:  #D0D0D0;
+}
+td:nth-child(5) {
+    color:#17A2B8;
+  }
+  td:nth-child(6){
+      color:#17A2B8;
+  }
+
+
+.foot_fixed{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #191D28;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+} 
+.btn_foot{
+    color:#17A2B8;
+    background-color: transparent!important;
+    border:1px solid #17A2B8;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 300!important;
+}
+.btn_foot:hover{
+    color: white!important;
+    background-color: #17A2B8!important;
+}
